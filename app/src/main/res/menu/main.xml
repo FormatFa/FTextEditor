@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/left"
+        android:icon="@android:drawable/ic_media_previous"
+        android:title="left"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/right"
+        android:icon="@android:drawable/ic_media_next"
+        android:title="right"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/run"
+        android:icon="@android:drawable/ic_media_play"
+        android:title="Run"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/open"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="打开" />
+    <item
+        android:id="@+id/goline"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="跳到行" />
+    <item
+        android:id="@+id/nav"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="导航栏" />
+    <item
+        android:id="@+id/save"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="保存" />
+
+
+
+            <group>
+        <item android:title="代码高亮" android:id="@+id/setLight"/>
+        <item android:title="字体大小" android:id="@+id/setFontSize" />
+            </group>
+
+
+    <item
+        android:id="@+id/about"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="关于" />
+    <item
+        android:id="@+id/info"
+        android:title="信息" />
+    <item
+        android:id="@+id/settings"
+        android:title="设置" />
+
+</menu>

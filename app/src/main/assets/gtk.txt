@@ -1,0 +1,9 @@
+background=#FFFFFF
+cursor=#D66558
+line=#FFFAE3
+selection=#5974AB
+lineNum=#888A85
+font=#000000
+
+
+增加粘帖选项，选择粘帖换行符为\n

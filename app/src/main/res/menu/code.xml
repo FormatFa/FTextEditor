@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/left"
+        android:icon="@android:drawable/ic_media_previous"
+        android:title="left"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/filechoose"
+        android:title="文件浏览" />
+    <item
+        android:id="@+id/right"
+        android:icon="@android:drawable/ic_media_next"
+        android:title="right"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/run"
+        android:icon="@android:drawable/ic_media_play"
+        android:title="Run"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/save"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="保存" />
+
+    <item
+        android:id="@+id/saveas"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="另保为" />
+
+    <item android:title="字体大小" android:id="@+id/setFontSize" />
+    <item
+        android:id="@+id/goline"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="跳到行" />
+    <item
+        android:id="@+id/search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="搜索" />
+    <item
+        android:id="@+id/searchnext"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="搜索下一个" />
+    <item
+        android:id="@+id/naveng"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="导航引擎" />
+    <item
+        android:id="@+id/lighteng"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="高亮引擎" />
+    <item
+        android:id="@+id/saveeng"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="保存引擎" />
+    <item
+        android:id="@+id/suggesteng"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="代码提示引擎" />
+    <item
+        android:id="@+id/info"
+        android:title="信息" />
+    <item
+        android:id="@+id/settings"
+        android:title="设置" />
+    <item
+        android:id="@+id/exit"
+        android:title="退出" />
+</menu>

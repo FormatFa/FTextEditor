@@ -1,0 +1,6 @@
+background=#2B2B2B
+cursor=#D66558
+line=#323232
+selection=#214283
+lineNum=#888A85
+font=#A6B4A7

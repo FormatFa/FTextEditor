@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:defaultValue="55"
+        android:key="fontSize"
+        android:title="字体大小"
+        android:summary="代码编辑字体大小"
+
+        />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="autoScroll"
+        android:title="自己滑动"
+        android:summary="滑动一下自动再滚"
+
+        />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="isSimpleCursor"
+        android:title="简单光标"
+        android:summary="使用简单的光标而不是方形覆盖在字符上面的"
+
+        />
+    <EditTextPreference
+        android:defaultValue="@string/defaultcolor"
+        android:key="color"
+        android:title="自定义主题"
+        android:summary="自定义主题配色"
+
+        />
+    <ListPreference
+        android:defaultValue="1"
+        android:key="themes"
+        android:title="选择编辑器主题"
+        android:dialogTitle="选择主题"
+        android:entries="@array/themes"
+        android:entryValues="@array/themes_values"
+
+        />
+    <Preference
+        android:defaultValue="false"
+        android:key="version"
+        android:title="版本"
+        android:summary="v1.0_beta"
+
+        />
+</PreferenceScreen>
